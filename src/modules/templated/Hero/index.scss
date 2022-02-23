@@ -1,0 +1,170 @@
+@import "../StoryMeta/index.scss";
+
+.inno-hero {
+  padding-bottom: 32px;
+
+  &--has-image,
+  &--has-video {
+    .inno-hero__content {
+      padding-bottom: 64px;
+
+      @include mq($bp-lg) {
+        padding-bottom: 128px;
+      }
+    }
+  }
+
+  &--has-no-media {
+    .inno-hero__content {
+      margin-bottom: 24px;
+    }
+  }
+}
+
+.inno-hero__content {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-align: center;
+  color: $color-base-navy;
+
+  @include mq($bp-lg) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+.inno-hero__eyebrow {
+  font-family: $font-style-base;
+  text-transform: uppercase;
+  font-size: $size-font-xxs;
+  font-weight: bold;
+  padding: 5px;
+  background: $color-base-navy;
+  color: #fff;
+  width: max-content;
+  text-decoration: none;
+  line-height: 2;
+}
+
+.inno-hero__headline {
+  font-family: $font-style-display-poster;
+  text-transform: uppercase;
+  font-size: $size-font-xl;
+  margin: 5px 0;
+  line-height: 1;
+
+  @include mq($bp-lg) {
+    font-size: $size-font-xxl;
+    margin: 10px 0;
+  }
+}
+
+.inno-hero__subheadline {
+  font-family: $font-style-base;
+  font-size: $size-font-md;
+  line-height: 1.65;
+}
+
+.inno-hero__media {
+  position: relative;
+  z-index: 2;
+  margin-top: -48px;
+
+  @include mq($bp-lg) {
+    margin-top: -96px;
+  }
+}
+
+// Custom options
+$backgrounds: (
+  "navy": $color-base-navy,
+  "pink": $color-spot-pink,
+  "orange": $color-spot-orange,
+  "yellow": $color-spot-yellow,
+  "green": $color-spot-green,
+  "periwinkle": $color-spot-periwinkle,
+  "cyan": $color-spot-cyan,
+  "black": $color-base-black,
+  "red": $color-base-red
+);
+
+@each $class, $color in $backgrounds {
+  .inno-hero--bg-#{$class} {
+    & ~ * {
+      --theme-color: #{$color};
+
+      @if $class == "navy" or $class == "black" {
+        --theme-font-color: #{$color-base-white};
+      } @else {
+        --theme-font-color: #{$color-base-navy};
+      }
+    }
+
+    & ~ .inq-p--has-dropcap:first-letter {
+      background-color: var(--theme-color, $color-base-blue);
+      color: var(--theme-font-color, $color-base-white);
+    }
+
+    .inno-hero__content {
+      background-color: $color;
+
+      @if $class == "navy" or $class == "black" {
+        .inno-hero__headline,
+        .inno-hero__subheadline {
+          color: $color-base-white;
+        }
+
+        .inno-hero__eyebrow {
+          background-color: $color-base-white;
+          color: $color-base-navy;
+        }
+      }
+    }
+  }
+}
+
+$fonts: (
+  "poster": $font-style-display-poster,
+  "display": $font-style-display,
+  "serif": $font-style-display-serif,
+  "condensed": $font-style-display-condensed,
+);
+
+@each $class, $font in $fonts {
+  .inno-hero--font-#{$class} {
+    & ~ * {
+      --theme-font: #{$font};
+      --theme-font-transform: uppercase;
+      --theme-font-multiplier: 1;
+
+      @if $class == "display" {
+        --theme-font-transform: none;
+      }
+
+      @if $class == "condensed" or $class == "display"{
+        --theme-font-size: #{$size-font-lg * 1.25};
+
+        @include mq($bp-lg) {
+          --theme-font-size: #{$size-font-xl * 1.25};
+        }
+      }
+    }
+
+    .inno-hero__headline,
+    & ~ .inq-p--has-dropcap::first-letter {
+      font-family: $font;
+
+      @if $class == "display" {
+        text-transform: none;
+      }
+
+      @if $class == "condensed" or $class == "display" {
+        font-size: $size-font-xl * 1.25;
+
+        @include mq($bp-lg) {
+          font-size: $size-font-xxl * 1.25;
+        }
+      }
+    }
+  }
+}
