@@ -1,52 +1,109 @@
 {
-  "content": [
+  "content": [],
+  "hero": [
     {
-      "type": "hero",
+      "type": "font",
+      "value": "display"
+    },
+    {
+      "type": "background",
+      "value": "navy"
+    },
+    {
+      "type": "steps",
       "value": [
         {
-          "type": "font",
-          "value": "display"
+          "step": "initial-step",
+          "text": "Philadelphia released a new alert system two weeks ago that ties public health measures like indoor masking, testing and vaccination verification requirements to COVID cases, test positivity and hospitalizations. Each of these rows represents a week over the course of the past two years, color-coded by COVID alert level."
         },
         {
-          "type": "background",
-          "value": "navy"
+          "step": "pa-step",
+          "text": "<strong class=\"inno-span inno-span--extreme-caution\">Extreme Caution</strong> is the highest alert tier, requiring businesses to check for proof of vaccination as a condition of entry and enforce indoor masking. Under a third of all weeks over the course of the past two years would have been designated <strong class=\"inno-span inno-span--extreme-caution\">Extreme Caution</strong> — the initial March 2020 wave and the two winter spikes after."
+        },
+        {
+          "step": "philly-step",
+          "text": "<strong class=\"inno-span inno-span--caution\">Caution</strong> is the next highest tier, which allows unvaccinated patrons to test in lieu of vaccination. There is no difference between <strong class=\"inno-span inno-span--extreme-caution\">Extreme Caution</strong> and <strong class=\"inno-span inno-span--caution\">Caution</strong> for vaccinated customers. The mask mandate would remain in place for both vaccinated and unvaccinated customers. Most of the past two years would have been designated <strong class=\"inno-span inno-span--caution\">Caution</strong>."
+        },
+        {
+          "step": "aug-step",
+          "text": "<strong class=\"inno-span inno-span--mask-precaution-only\">Mask Precaution Only</strong> is the third highest tier, which requires businesses to enforce an indoor mask mandate. One-in-five weeks would have only required masking over the course of the past two years."
+        },
+        {
+          "step": "sept-step",
+          "text": "<strong class=\"inno-span inno-span--all-clear\">All Clear</strong> is the final alert tier, and the only one with no public health interventions associated with it. Only 5 weeks in the past two years would have been mask-free."
+        },
+        {
+          "step": "oct-step",
+          "text": "The City’s algorithm is designed to be wary and produce this outcome. The alert level depends on COVID hospitalizations and three metrics that are tied to reported COVID cases. The test positivity rate tracks most closely with the overall alert tier."
+        },
+        {
+          "step": "nov-step",
+          "text": "After positivity, hospitalizations are most likely to track with the overall alert tier. Over the past two years, hospitalizations have never hit <strong class=\"inno-span inno-span--all-clear\">All Clear</strong>. That means that all three other factors need to perfectly align to produce an overall designation of <strong class=\"inno-span inno-span--all-clear\">All Clear</strong>."
+        },
+        {
+          "step": "penultimate-step",
+          "text": "The case average presents a snapshot of COVID prevalence in the community, though with the rise of home-testing reported case counts provide an increasingly incomplete picture of community spread going forward. The CDC is de-prioritizing reported case metrics in its intervention recommendations for this reason."
+        },
+        {
+          "step": "final-step",
+          "text": "And finally, the algorithm tracks whether cases have seen sharp increases in the past week or not. It does not consider whether cases are declining — just whether or not they’ve seen sharp increases. As a result, this metric swings from <strong class=\"inno-span inno-span--extreme-caution\">Extreme Caution</strong> to not Extreme Caution. That not Extreme Caution level is here represented as <strong class=\"inno-span inno-span--all-clear\">All Clear</strong>."
+        },
+        {
+          "step": "another-step",
+          "text": "The case average and rate of increase don’t always align perfectly. Even in a situation where reported numbers of cases are small, you can still have large percentage increases — an increase from 1 to 2 is a 100% increase, for example. As a result, Philadelphia is likely to hit <strong class=\"inno-span inno-span--all-clear\">All Clear</strong> when it has a low number of cases that are also on the decline — as we saw in the hot vaxx summer of 2021."
         }
       ]
     },
     {
+      "type": "text",
+      "value": "City officials rolled out the system two weeks ago, touting the"
+    },
+    {
+      "type": "text",
+      "value": "Has raised questions about whether the algorithm is necessary, whether its bar for lowering restrictions is too high and"
+    },
+    {
       "type": "endmark",
-      "value": "After being tied up in the courts for months, President Joe Biden’s vaccine mandate will be implemented nationwide this week, but the policy was in many ways designed to address yesterday’s crisis. The next challenge for public health officials is altogether too familiar: increasing booster uptake among frontline staff to protect some of society’s most vulnerable."
+      "value": "Final paragraph goes here"
     },
     {
       "type": "note",
       "value": [
         {
           "type": "heading",
-          "value": "About the data"
+          "value": "About the data and methodology"
         },
         {
           "type": "text",
-          "value": "All four metrics — test positivity, case average, case rate of change and COVID-19 hospitalizations —  are calculated on Mondays to determine the alert level for the rest of the week. Data are sourced from the Philadelphia Department of Public Health and the Pennsylvania Department of Health."
+          "value": "Data are sourced from the [Philadelphia Department](https://www.opendataphilly.org/dataset/covid-cases/resource/85fead1a-0ec3-4856-98a9-27ba4fa941ee) [of Public Health](https://www.phila.gov/programs/coronavirus-disease-2019-covid-19/guidance/covid-19-response-levels/) and the [Pennsylvania Department of Health](https://data.pa.gov/Covid-19/COVID-19-Aggregate-Hospitalizations-Current-Daily-/kayn-sjhx)."
         },
         {
           "type": "text",
-          "value": "Alert tiers are only shown for weeks when all four metrics are available, starting March 30, 2020. The methodology below is identical to the one used by the Philadelphia Department of Public Health."
+          "value": "The methodology below is identical to the one used by the Philadelphia Department of Public Health."
         },
         {
           "type": "text",
-          "value": "Test positivity is calculated only using molecular test results based on the day of specimen collection. To account for the incompleteness of the most recent testing data, the Philadelphia Department of Health only considers data through the previous Friday in its calculations."
+          "value": "All four metrics — test positivity, case average, case rate of change and COVID-19 hospitalizations —  are calculated on Mondays to determine the alert level for the rest of the week. Alert tiers are only shown for weeks when all four metrics are available, starting March 30, 2020."
         },
         {
           "type": "text",
-          "value": "Only molecular tests are considered in the positivity calculation because home tests may be self-reported to the department on a voluntary basis, and are counted as antigen tests in those circumstances. The self-reported nature of those antigen tests introduces a sampling bias, so the department disregards all antigen tests in calculating a positivity rate."
+          "value": "A limitation with this retroactive analysis is that test data is revised constantly as results come in from labs. As a result, analysis applied retroactively is performed on more complete data on tests and cases than what would have been available in real-time. If the analysis had been performed on Monday each week over the past two years, the tier classification may have been different at the time to what is shown here. Data were pulled on Feb. 23, 2022 for the graphics above."
         },
         {
           "type": "text",
-          "value": "The Department counts positive test results from both PCR and antigen tests by the date of specimen collection, again with a two day lag to account for incomplete data. Cases are represented as a seven-day average."
+          "value": "Test positivity is calculated only using molecular test results based on the day of specimen collection. To account for the incompleteness of the most recent testing data, the Philadelphia Department of Public Health only considers data through the previous Friday in its calculation of the alert level."
         },
         {
           "type": "text",
-          "value": "Hospitalization numbers are reported to the state directly by medical providers everyday and include all patients who test positive for COVID-19. The state Department of Health counts antigen and PCR positives in its numbers. Only the daily number reported on Mondays is considered in the calculation of the alert tier. Data unavailable for Dec 20, 2021."
+          "value": "Only molecular tests are considered in the positivity calculation because home tests may be self-reported to the department on a voluntary basis, and are counted as antigen tests in those circumstances. The self-reported nature of those antigen tests introduces a sampling bias, so the agency disregards all antigen tests in calculating a positivity rate."
+        },
+        {
+          "type": "text",
+          "value": "The department counts positive test results from both PCR and antigen tests by the date of specimen collection, again with a two day lag to account for incomplete data. Cases are considered as a seven-day average."
+        },
+        {
+          "type": "text",
+          "value": "Hospitalization numbers are reported to the state directly by medical providers every day and include all probable and confirmed cases of COVID-19. Only hospitalizations within Philadelphia County boundaries are counted. The state Department of Health counts antigen and PCR positives in its numbers. Only the daily number reported on Mondays is considered in the calculation of the alert tier. Data unavailable for Dec 20, 2021 statewide due to a “data processing error”."
         }
       ]
     },
@@ -55,15 +112,15 @@
       "value": [
         {
           "role": "Reporter",
-          "names": "Kasturi Pananjady"
+          "names": "Kasturi Pananjady, Jason Laughlin"
         },
         {
           "role": "Editors",
-          "names": "Jonathan Lai, Dan Hirschhorn"
+          "names": "Jonathan Lai, Charlotte Sutton"
         },
         {
           "role": "Designers and developers",
-          "names": "Kasturi Pananjady, Dain Saint"
+          "names": "Kasturi Pananjady"
         },
         {
           "role": "Digital editor",
@@ -75,11 +132,11 @@
         },
         {
           "role": "Photo editor",
-          "names": "David Maialetti"
+          "names": "TK"
         },
         {
           "role": "Copy editor",
-          "names": "Brian Leighton"
+          "names": "TK"
         }
       ]
     },

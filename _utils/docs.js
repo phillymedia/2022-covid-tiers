@@ -73,24 +73,36 @@ function saveDataToFile( data, filename ) {
 }
 
 async function fetchComposerStory(id) {
-  try {
-    const response = await fetch(
-      `https://api.inquirer.com/v1/arc-content?apikey=L7ABFZ8CJuAs1JyeK75UQtbBoGtfoG0M&_id=${id}&published=false`
-    );
-    const story = await response.json();
 
-    if( !story || story.message ) {
+  const getStory = async ( published ) => {
+    const response = await fetch(
+      `https://api.inquirer.com/v1/arc-content?apikey=L7ABFZ8CJuAs1JyeK75UQtbBoGtfoG0M&_id=${id}&published=${published}`
+    );
+    const json = await response.json();
+    return json;
+  }
+
+  const extractStory = ( story ) => {
+    if( !story || story.message )
       return false;
-    }
 
     const { _id, last_updated_date, display_date, credits, promo_items, label, headlines, subheadlines } = story;
     const extracted = { _id, last_updated_date, display_date, credits, promo_items, label, headlines, subheadlines };
 
     saveDataToFile( extracted, "story" );
     console.log( `🗞  ${id}`);
-  } catch(e) {
-    console.log( `⛔️ ${id}`);
+    return true;
   }
+
+  const published = await getStory(true);
+  if( extractStory(published) )
+    return;
+
+  const notPublished = await getStory( false );
+  if( extractStory(notPublished) )
+    return;
+
+  console.log( `⛔️ ${id}`);
 }
 
 
