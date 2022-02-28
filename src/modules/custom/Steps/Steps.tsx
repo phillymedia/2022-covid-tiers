@@ -25,7 +25,6 @@ const convertParToHTML = markdownText => {
 }
 
 const Steps = ({ steps }) => {
-
   return (
     <div className='inno-steps inno-uncontain js-steps' data-type={steps[0].step.includes('line-') ? 'line' : 'radar'}>
       <div className='inno-container'>
@@ -48,12 +47,10 @@ const Steps = ({ steps }) => {
       </div>
 
       <div className='inno-steps__content'>
-
         {steps[0].step == ('initial-step') &&
           <MonthsSwarm />
         }
       </div>
-
     </div>
   );
 };
