@@ -1,32 +1,53 @@
 {
-  "content": [],
-  "hero": [
+  "content": [
     {
-      "type": "font",
-      "value": "display"
+      "type": "hero",
+      "value": [
+        {
+          "type": "font",
+          "value": "display"
+        },
+        {
+          "type": "background",
+          "value": "navy"
+        }
+      ]
     },
     {
-      "type": "background",
-      "value": "navy"
+      "type": "text",
+      "value": "Philadelphia is lifting its indoor mask mandate week under criteria established by a COVID-19 alert system it announced two weeks ago. That means that residents may unmask in all but select environments, such as schools, public transportation and health care settings."
+    },
+    {
+      "type": "text",
+      "value": "This brings the city in with federal guidance issued last week, which also allows residents who are not immunocompromised to unmask."
+    },
+    {
+      "type": "text",
+      "value": "But the break from indoor masking stands on shaky ground. The city’s algorithm is designed to make All Clear — the transmission tier that allows residents to unmask — hard to achieve, an Inquirer analysis found. In the past two years, the city would only have hit All Clear for only five weeks in the summer of 2021."
+    },
+    {
+      "type": "text",
+      "value": "Here’s why."
     },
     {
       "type": "steps",
       "value": [
         {
           "step": "initial-step",
-          "text": "Philadelphia released a new alert system two weeks ago that ties public health measures like indoor masking, testing and vaccination verification requirements to COVID cases, test positivity and hospitalizations. Each of these rows represents a week over the course of the past two years, color-coded by COVID alert level."
+          "text": "Philadelphia’s COVID alert system ties public health measures like indoor masking, testing and vaccination verification requirements to COVID-19 cases, test positivity and hospitalizations."
         },
         {
           "step": "pa-step",
-          "text": "<strong class=\"inno-span inno-span--extreme-caution\">Extreme Caution</strong> is the highest alert tier, requiring businesses to check for proof of vaccination as a condition of entry and enforce indoor masking. Under a third of all weeks over the course of the past two years would have been designated <strong class=\"inno-span inno-span--extreme-caution\">Extreme Caution</strong> — the initial March 2020 wave and the two winter spikes after."
+          "text": "<strong class=\"inno-span inno-span--extreme-caution\">Extreme Caution</strong> is the highest alert tier. Businesses have to verify vaccination status of customers as a condition of entry and enforce indoor masking."
         },
         {
           "step": "philly-step",
-          "text": "<strong class=\"inno-span inno-span--caution\">Caution</strong> is the next highest tier, which allows unvaccinated patrons to test in lieu of vaccination. There is no difference between <strong class=\"inno-span inno-span--extreme-caution\">Extreme Caution</strong> and <strong class=\"inno-span inno-span--caution\">Caution</strong> for vaccinated customers. The mask mandate would remain in place for both vaccinated and unvaccinated customers. Most of the past two years would have been designated <strong class=\"inno-span inno-span--caution\">Caution</strong>."
+          "text": "<strong class=\"inno-span inno-span--caution\">Caution</strong> is the next highest tier. Unvaccinated patrons may test in lieu of vaccination. There is no difference between Extreme Caution and <strong class=\"inno-span inno-span--caution\">Caution</strong> for vaccinated customers. The mask mandate would remain in place for everyone.",
+          "text2": "Just under half of all weeks in the past two years would have been designated **Caution**."
         },
         {
           "step": "aug-step",
-          "text": "<strong class=\"inno-span inno-span--mask-precaution-only\">Mask Precaution Only</strong> is the third highest tier, which requires businesses to enforce an indoor mask mandate. One-in-five weeks would have only required masking over the course of the past two years."
+          "text": "One tier down is <strong class=\"inno-span inno-span--mask-precaution-only\">Mask Precaution Only</strong>, which requires businesses to enforce an indoor mask mandate but not a vaccine mandate."
         },
         {
           "step": "sept-step",
@@ -34,37 +55,153 @@
         },
         {
           "step": "oct-step",
-          "text": "The City’s algorithm is designed to be wary and produce this outcome. The alert level depends on COVID hospitalizations and three metrics that are tied to reported COVID cases. The test positivity rate tracks most closely with the overall alert tier."
+          "text": "The City’s algorithm is designed to be wary and produce this outcome. The alert level depends on COVID hospitalizations and three metrics that are tied to reported COVID cases."
         },
         {
           "step": "nov-step",
-          "text": "After positivity, hospitalizations are most likely to track with the overall alert tier. Over the past two years, hospitalizations have never hit <strong class=\"inno-span inno-span--all-clear\">All Clear</strong>. That means that all three other factors need to perfectly align to produce an overall designation of <strong class=\"inno-span inno-span--all-clear\">All Clear</strong>."
+          "text": "Over the past two years, hospitalizations have never hit <strong class=\"inno-span inno-span--all-clear\">All Clear</strong>. That means that all three other factors need to perfectly align to produce an overall designation of <strong class=\"inno-span inno-span--all-clear\">All Clear</strong>."
         },
         {
           "step": "penultimate-step",
-          "text": "The case average presents a snapshot of COVID prevalence in the community, though with the rise of home-testing reported case counts provide an increasingly incomplete picture of community spread going forward. The CDC is de-prioritizing reported case metrics in its intervention recommendations for this reason."
+          "text": "The case average presents a snapshot of COVID prevalence in the community. The case rate of change tracks whether cases have seen sharp increases in the past week or not. They don’t always align, because small increases among small numbers can register as large percentage increases."
         },
         {
           "step": "final-step",
-          "text": "And finally, the algorithm tracks whether cases have seen sharp increases in the past week or not. It does not consider whether cases are declining — just whether or not they’ve seen sharp increases. As a result, this metric swings from <strong class=\"inno-span inno-span--extreme-caution\">Extreme Caution</strong> to not Extreme Caution. That not Extreme Caution level is here represented as <strong class=\"inno-span inno-span--all-clear\">All Clear</strong>."
+          "text": "When both these case measures have hit <strong class=\"inno-span inno-span--all-clear\">All Clear</strong> simultaneously, cases have been low and on the decrease. That was true in summer 2021, and that is true today."
         },
         {
           "step": "another-step",
-          "text": "The case average and rate of increase don’t always align perfectly. Even in a situation where reported numbers of cases are small, you can still have large percentage increases — an increase from 1 to 2 is a 100% increase, for example. As a result, Philadelphia is likely to hit <strong class=\"inno-span inno-span--all-clear\">All Clear</strong> when it has a low number of cases that are also on the decline — as we saw in the hot vaxx summer of 2021."
+          "text": "Overall, positivity aligns most closely with the overall alert tier, followed by COVID hospitalizations."
         }
       ]
     },
     {
       "type": "text",
-      "value": "City officials rolled out the system two weeks ago, touting the"
+      "value": "The city included hospitalizations because “it's a metric into the severity of whatever variant is spreading at the time,” said James Garrow, communications director for the city’s public health department."
     },
     {
       "type": "text",
-      "value": "Has raised questions about whether the algorithm is necessary, whether its bar for lowering restrictions is too high and"
+      "value": "Hospitalizations also serve as the breaks on the system since they lag cases, he said. A fall in cases today will only register as a fall in hospitalizations a few weeks later. Relaxing restrictions too quickly “could lead to a second peak,” Garrow said."
+    },
+    {
+      "type": "text",
+      "value": "For hospitalizations to hit All Clear, the number of people in Philly hospitals would have to fall under 50. All probable and confirmed cases of COVID-19 in Philly’s hospitals contribute to this number, and the city has fallen below this threshold on exactly two days over the course of the past two years."
+    },
+    {
+      "type": "text",
+      "value": "Neither of those days were Mondays, when the city looks at the numbers to set the COVID-19 alert level for the week."
+    },
+    {
+      "type": "text",
+      "value": "By contrast, the federal government’s system, which places greater emphasis on hospitalization metrics than the city’s does, sets its thresholds higher. More than 160 COVID-19 patients indicates medium risk; over 320 pushes Philadelphia toward the high risk category, which requires universal masking, an Inquirer analysis found."
+    },
+    {
+      "type": "text",
+      "value": "The federal government’s system, released last week, differs from the city’s in four other key ways:"
+    },
+    {
+      "type": "text",
+      "value": "The CDC system prioritizes measures of hospital strain over case metrics to measure spread in the community."
+    },
+    {
+      "type": "text",
+      "value": "CDC thresholds are chosen based on their ability to predict COVID deaths. The city’s thresholds are designed to keep tabs on surging cases."
+    },
+    {
+      "type": "text",
+      "value": "The CDC recommends masking in the highest alert tier, whereas the city requires masking in all but the lowest tier."
+    },
+    {
+      "type": "text",
+      "value": "The CDC places the onus on individuals to follow guidance, whereas the city expects businesses to enforce these rules."
+    },
+    {
+      "type": "text",
+      "value": "The CDC has de-emphasized reported cases and test positivity partly because the results of home tests don’t make it into either of those numbers."
+    },
+    {
+      "type": "text",
+      "value": "The city accounts for this reporting bias in its calculation of the positivity rate by only looking at the results of molecular tests, but the algorithm is nevertheless heavily skewed toward metrics that gauge spread even though the city’s data will paint an increasingly incomplete picture of spread going forward."
+    },
+    {
+      "type": "text",
+      "value": "Despite these caveats with reported cases, “it's worthwhile, looking at them,” said Anuradha Paranjpe, professor of medicine at Temple University. “It will be a leading indicator of where we have another variant.”"
+    },
+    {
+      "type": "text",
+      "value": "At present, “people are still struggling to get that home test. So it's a useful figure for us now,” Garrow said. As home tests become more available, “I wouldn't be surprised if we changed it, but we don't have any concrete plans to do that right now.”"
+    },
+    {
+      "type": "text",
+      "value": "Where the federal and city requirements do converge is in their accommodation of the unvaccinated."
+    },
+    {
+      "type": "text",
+      "value": "Public health mitigation measures have to find the sweet spot between interventions that effectively reduce spread and those that minimize restrictions and economic disruption, said Neal Golstein, professor of epidemiology and biostatistics at Drexel."
+    },
+    {
+      "type": "text",
+      "value": "Vaccination is the most effective tool to reduce disease spread and hospital strain, but vaccine verification is the city’s last resort under the city’s current system."
+    },
+    {
+      "type": "text",
+      "value": "“From a public health perspective, you want the least restrictive means necessary to control whatever the health condition that you're concerned about, whether it's a pandemic or some other outbreak,” he said. But “the least restrictive means necessary — that is very subjective based on the individual.”"
+    },
+    {
+      "type": "text",
+      "value": "For a vaccination individual, the least intrusive intervention is being asked to show proof of vaccination. For a vaccinated individual"
+    },
+    {
+      "type": "text",
+      "value": "The two highest alert tiers are essentially identical for vaccinated people in"
+    },
+    {
+      "type": "text",
+      "value": "There is some disagreement on whether Philadelphia’s system does successfully minimize economic disruption to the city’s businesses, or whether the city could do more."
+    },
+    {
+      "type": "text",
+      "value": "**Business perspective/implementation challenges ** "
+    },
+    {
+      "type": "text",
+      "value": "Flip flopping between tiers"
+    },
+    {
+      "type": "text",
+      "value": "- Businesses have to enforce these measures or risk being shut down, but no clear mechanism for monitoring compliance"
+    },
+    {
+      "type": "text",
+      "value": "- Unlike other jurisdictions, city isn’t facilitating vaccine verification electronically"
+    },
+    {
+      "type": "text",
+      "value": "- City says they don’t have the $$ for that"
+    },
+    {
+      "type": "text",
+      "value": "- Similar to prior policies, only Philly enacting these measures puts city stores and business at a disadvantage when compared to neighboring enterprises"
+    },
+    {
+      "type": "text",
+      "value": "- Even the best designed policy can only reduce transmission in these settings by so much; the majority of transmission occurs among households anyway. Limit to benefit of (over) regulating businesses to curb transmission"
+    },
+    {
+      "type": "text",
+      "value": "XX transition to conclusion"
+    },
+    {
+      "type": "text",
+      "value": "At their most basic, both the city and federal systems are designed to ramp up restrictions and down going forward depending on spread and severity of disease, and public health professionals generally agree with that principle. Where there is disagreement among experts is in how to message public health restrictions going forward, which metrics to track and how much importance to give them, and how to proportionally increase mitigation measures in response to risk."
+    },
+    {
+      "type": "text",
+      "value": "Those questions don’t have easy answers. But one thing is certain: unmasking today does not mean that the pandemic is over."
     },
     {
       "type": "endmark",
-      "value": "Final paragraph goes here"
+      "value": "“CDC Director Rochelle Walensky has been very clear to say we can give people a break from masks now,” Paranjpe said. “But we should have them handy should we need them again.”"
     },
     {
       "type": "note",

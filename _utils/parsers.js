@@ -219,9 +219,30 @@ const StepsParser = async(obj) => {
           for (let i in results) {
             step.text = step.text.replace(results[i], cleanResults[i])
           }
+
+
         }
       }
+    
+
+    if (step.text2) {
+      const results = step.text2.match(/<strong>(.*?)<\/strong>/g);
+
+      if (results) {
+          const cleanResults = results.map(result => {
+            const className = 'inno-span inno-span--' + result.replace(/<\/?strong>/g,'').toLowerCase().replace(/ /g, '-').replace(/’/g, '');
+            return result.replace('<strong>', `<strong class="${className}">`);
+          })
+
+        for (let i in results) {
+          step.text2 = step.text2.replace(results[i], cleanResults[i])
+        }
+
+        
+      }
     }
+  
+  }
   }
 }
 

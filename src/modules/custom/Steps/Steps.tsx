@@ -11,6 +11,7 @@ const Steps = ({ steps }) => {
           {steps.map(step => (
             <li className='inno-steps__step js-steps-step' data-step={step.step} data-score={step.score}>
               <p className='inno-p' dangerouslySetInnerHTML={{__html:step.text}}></p>
+              {step.text2 && <p className='inno-p' dangerouslySetInnerHTML={{__html:step.text2}}></p>}
             </li>
           ))}
         </ul>

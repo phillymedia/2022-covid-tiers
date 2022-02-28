@@ -1,6 +1,6 @@
 {
   "_id": "R6EBVOTHBVFOLFX3E2QRI347F4",
-  "last_updated_date": "2022-02-23T20:43:14.539Z",
+  "last_updated_date": "2022-02-25T19:08:13.312Z",
   "credits": {
     "by": [
       {
@@ -137,7 +137,18 @@
       }
     ]
   },
-  "label": {},
+  "label": {
+    "commission_team_1_required": {
+      "display": true,
+      "text": "Data",
+      "url": ""
+    },
+    "commission_team_2": {
+      "display": true,
+      "text": "Health",
+      "url": ""
+    }
+  },
   "headlines": {
     "basic": "We applied Philly’s new COVID alert levels to the past two years. Here’s what we found",
     "meta_title": "",
