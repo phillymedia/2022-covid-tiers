@@ -202,50 +202,6 @@ const HTMLParser = async(obj) => {
   }
 }
 
-const StepsParser = async(obj) => {
-  if (obj.value) {
-    for (let step of obj.value) {
-      step.text = md.renderInline(step.text); 
-
-      if (step.text) {
-        const results = step.text.match(/<strong>(.*?)<\/strong>/g);
-
-        if (results) {
-            const cleanResults = results.map(result => {
-              const className = 'inno-span inno-span--' + result.replace(/<\/?strong>/g,'').toLowerCase().replace(/ /g, '-').replace(/’/g, '');
-              return result.replace('<strong>', `<strong class="${className}">`);
-            })
-
-          for (let i in results) {
-            step.text = step.text.replace(results[i], cleanResults[i])
-          }
-
-
-        }
-      }
-    
-
-    if (step.text2) {
-      const results = step.text2.match(/<strong>(.*?)<\/strong>/g);
-
-      if (results) {
-          const cleanResults = results.map(result => {
-            const className = 'inno-span inno-span--' + result.replace(/<\/?strong>/g,'').toLowerCase().replace(/ /g, '-').replace(/’/g, '');
-            return result.replace('<strong>', `<strong class="${className}">`);
-          })
-
-        for (let i in results) {
-          step.text2 = step.text2.replace(results[i], cleanResults[i])
-        }
-
-        
-      }
-    }
-  
-  }
-  }
-}
-
 module.exports = {
   text: TextParser,
   image: ImageParser,
@@ -253,6 +209,5 @@ module.exports = {
   conversation: ConversationParser,
   related: RelatedParser,
   graphic: GraphicParser,
-  html: HTMLParser,
-  steps: StepsParser
+  html: HTMLParser
 }
