@@ -33,23 +33,19 @@
     },
     {
       "type": "text",
-      "value": "Last week, Philadelphia just missed the threshold for unmasking under its new tiered COVID-19 alert system: The test positivity rate was 0.3 percentage points too high, and average cases were three cases too high."
+      "value": "PhiladelphiaThe city just missed its threshold for unmasking this week under its new tiered COVID-19 alert system — the test positivity rate was 0.8 percentage points too high."
     },
     {
       "type": "text",
-      "value": "The city just missed its threshold for unmasking this week under its new tiered COVID-19 alert system — the test positivity rate was 0.8 percentage points too high."
+      "value": "Meanwhile, new federal guidance placed the cityPhiladelphia in a lower COVID-19 risk level, allowing residents who are not immunocompromised to unmask."
     },
     {
       "type": "text",
-      "value": "Meanwhile, new federal guidance placed Philadelphia in a lower COVID-19 risk level, allowing residents who are not immunocompromised to unmask."
+      "value": "An Inquirer analysis found that the city’s new formulaalgorithm makes All Clear — the tier that lets residents unmask — hard to achieve. Over the past two years, the city would have hit All Clear for only five weeks."
     },
     {
       "type": "text",
-      "value": "An Inquirer analysis found that the city’s new algorithm makes All Clear — the tier that lets residents unmask — hard to achieve. Over the past two years, the city would have hit All Clear for only five weeks."
-    },
-    {
-      "type": "text",
-      "value": "Past data does not predict the future; the city may very well clear the threshold to unmask soon. But our analysis also found that when the city hits All Clear, it can be hard to stay there."
+      "value": "Past data doesn' not predict the future; the city may very well clear the barthreshold to unmask soon. But our analysis also found that when the city hits All Clear, it can be hard to stay there."
     },
     {
       "type": "text",
@@ -128,7 +124,7 @@
           "text": [
             {
               "type": "text",
-              "value": "The city’s algorithm is designed, intentionally or not, to be very conservative and make it hard to unmask. That's because of how the alert level depends on COVID hospitalizations and three metrics tied to reported COVID cases."
+              "value": "The city’s formulaalgorithm is designed, intentionally or not, to be very conservative and make it hard to unmask. That's because of how the alert level depends on COVID hospitalizations and three metrics tied to reported COVID cases."
             }
           ]
         },
@@ -159,7 +155,7 @@
             },
             {
               "type": "text",
-              "value": "But relatively small increases among small numbers can still register as large percentage increases. When both these case measures have hit **All Clear** simultaneously, cases have been low and are decreasing or plateauing."
+              "value": "But when cases are low, a relatively small increases among small numbers can still register as a large percentage increases. When both these case measures have hit **All Clear** simultaneously, cases have been low and are decreasing or plateauing."
             }
           ]
         },
@@ -203,7 +199,7 @@
     },
     {
       "type": "text",
-      "value": "City officials and outside experts emphasized that circumstances have changed significantly since last year, and the past two years of pandemic aren’t necessarily predictive of what’s ahead. In June 2021, between 56% and 58% of all Philadelphians were vaccinated, and no young children had received shots. Now, about 78% of city residents are fully vaccinated, and about half of those 5 to 11 have received at least one shot. Huge numbers of people infected during the omicron surge now have the benefit of natural immunity, or bolstered immunity if they were already vaccinated."
+      "value": "City officials and outside experts emphasized that circumstances have changed significantly since last year, and the past two years aren’t necessarily predictive of what’s ahead. In June 2021, between 56% and 58% of all Philadelphians were vaccinated, and no young children had received shots. Now, about 78% of city residents are fully vaccinated, and about half of those 5 to 11 have received at least one shot. Huge numbers of people infected during the omicron surge now have the benefit of natural immunity, or bolstered immunity if they were already vaccinated."
     },
     {
       "type": "text",
@@ -219,11 +215,11 @@
     },
     {
       "type": "text",
-      "value": "“I was happy to have anything that these operators (hotels and event venues) could look at themselves and see that we were either moving in the right direction or not moving in the right direction,” said Ben Fileccia, director of operations & strategy for the Philadelphia Restaurant and Lodging Association. “We’ve been asking for metrics like this for over a year and a half now.”"
+      "value": "“I was happy to have anything that [hotel and event venue]these operators (hotels and event venues) could look at themselves and see that we were either moving in the right direction or not moving in the right direction,” said Ben Fileccia, director of operations & strategy for the Philadelphia Restaurant and Lodging Association. “We’ve been asking for metrics like this for over a year and a half now.”"
     },
     {
       "type": "text",
-      "value": "Losing the vaccine mandate eased pressure on venues losing business to competition in suburban counties without such restrictions. The benefit of the vaccine mandates as an incentive to get people vaccinated, meanwhile, city health department spokesperson James Garrow said, has likely reached the end of its usefulness."
+      "value": "Losing the vaccine mandate eased pressure on venues losing business to competition in suburban counties without such restrictions. The benefit of the vaccine mandates as an incentive to get people vaccinated, meanwhile, city health department spokesperson James Garrow said, has likely reached the end of its usefulness, city health department spokesperson James Garrow said."
     },
     {
       "type": "heading",
@@ -255,7 +251,7 @@
     },
     {
       "type": "text",
-      "value": "The city’s benchmarks **matched** those set by the Centers for Disease Control and Prevention until late February, [when the agency introduced new masking recommendations](https://www.inquirer.com/health/coronavirus/mask-mandate-philadelphia-cdc-pennsylvania-20220225.html)."
+      "value": "The city’s benchmarks matched those set by the Centers for Disease Control and Prevention until late February, [when the agency introduced new masking recommendations](https://www.inquirer.com/health/coronavirus/mask-mandate-philadelphia-cdc-pennsylvania-20220225.html)."
     },
     {
       "type": "text",
@@ -274,7 +270,7 @@
         },
         {
           "type": "text",
-          "value": "The CDC system considers two measures of hospital strain. The city’s system considers three measures of case spread."
+          "value": "Two of the CDC's three metricsThe CDC system considers two measures of hospital strain. Three of the city's fourThe city’s system considers three are measures of case spread."
         },
         {
           "type": "text",
@@ -282,7 +278,7 @@
         },
         {
           "type": "text",
-          "value": "The CDC places the onus on individuals to follow guidance, whereas the city expects businesses to enforce the rules."
+          "value": "The CDC places the onus on individuals to follow guidance, whilewhereas the city expects businesses to enforce the rules."
         }
       ]
     },
@@ -312,7 +308,7 @@
     },
     {
       "type": "text",
-      "value": "For people hesitant about vaccination. “instinctively, the idea of someone putting a substance into your body with a needle seems more scary than wearing a garment that you can take off,” said Robert Field, professor of law at Drexel."
+      "value": "For people hesitant about vaccination,. “instinctively, the idea of someone putting a substance into your body with a needle seems more scary than wearing a garment that you can take off,” said Robert Field, professor of law at Drexel."
     },
     {
       "type": "text",
@@ -324,7 +320,11 @@
     },
     {
       "type": "text",
-      "value": "Health department officials will announce any mandate changes on Mondays, using the past week’s COVID-19 metrics to decide what’s warranted. Setting weekly alerts tied to absolute thresholds, though, comes with dangers. It is possible that the metrics that determine which mandates are in effect could straddle the line between one level of alert and another for weeks or months, leading to changing mandates from one week to another."
+      "value": "Health department officials will announce any mandate changes on Mondays, using the past week’s COVID-19 metrics to decide what’s warranted."
+    },
+    {
+      "type": "text",
+      "value": "Setting weekly alerts tied to absolute thresholds, though, comes with dangers. It' is possible that the metrics that determine which mandates are in effect could straddle the line between one level of alert and another for weeks or months, leading to changing mandates from one week to the nextanother."
     },
     {
       "type": "text",
@@ -348,19 +348,19 @@
     },
     {
       "type": "text",
-      "value": "Paranjape, though, thought there was value to the city’s safety system."
+      "value": "Still, Paranjape said,, though, thought there' was value to the city’s safety system."
     },
     {
       "type": "text",
-      "value": "“The city is trying to balance keeping the economy going with keeping the city safe,” she said, “in particular, making sure if patients get COVID them and others have access to health care.”"
+      "value": "“The city is trying to balance keeping the economy going with keeping the city safe,” she said, “in particular, making sure if patients get COVID, theym and others have access to health care.”"
     },
     {
       "type": "text",
-      "value": "Fundamentally, the city and federal systems are designed to ramp up restrictions and or ease them depending on spread and severity of disease, and public health professionals generally agree with that principle. Where there is disagreement among experts is in how to message public health restrictions, which metrics to track and how much importance to give them, and how to balance mitigation measures against risk."
+      "value": "Fundamentally, the city and federal systems are designed to ramp up or ease restrictions and or ease them depending on spread and severity of disease, and public health expertprofessionals generally agree with that principle. TheWhere there is disagreement among experts is in the specifics of how to communicatemessage public health restrictions, which metrics to track and how much importance to give them, and how to balance mitigation measures against risk."
     },
     {
       "type": "text",
-      "value": "Those questions don’t have easy answers. But one thing is certain: whether masks come off next week or a few weeks from now, when the city likely hits All Clear, it doesn’t mean masks are gone for good."
+      "value": "Those questions don’t have easy answers. But one thing is certain: Wwhether masks come off next week or a few weeks from now, when the city likely hits All Clear, it doesn’t mean they'remasks are gone for good."
     },
     {
       "type": "endmark",
@@ -387,15 +387,15 @@
         },
         {
           "type": "text",
-          "value": "Test positivity is calculated using molecular test results based on the day of specimen collection. To account for the incompleteness of the most recent testing data, the Philadelphia Department of Public Health only considers data through the previous Friday."
+          "value": "Test positivity is calculated using molecular test results based on the day of specimen collection. To account for delays in result reportingthe incompleteness of the most recent testing data, the Philadelphia Department of Public Health only considers data through the previous Friday."
         },
         {
           "type": "text",
-          "value": "Only molecular tests are considered in the positivity calculation because home tests may be self-reported to the department on a voluntary basis. That introduces a sampling bias, so the agency disregards all antigen tests."
+          "value": "Only molecular tests are considered in the positivity calculation. Bbecause home tests may be self-reported to the department on a voluntary basis, introducing. That introduces a sampling bias, so the agency disregards all antigen tests."
         },
         {
           "type": "text",
-          "value": "Case counts use positive test results from both PCR and antigen tests by the date of specimen collection, with a two-day lag to account for incomplete data. Cases are considered as a seven-day average, and the rate of change is calculated off of those numbers."
+          "value": "Case counts use positive test results from both PCR and antigen tests by the date of specimen collection, with a two-day lag to account for incomplete data. Case numbers ares are considered as a seven-day average, and the rate of change is calculated off of those numbers."
         },
         {
           "type": "text",
