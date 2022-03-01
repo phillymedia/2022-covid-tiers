@@ -28,24 +28,50 @@
         {
           "type": "background",
           "value": "navy"
+        },
+        {
+          "type": "image",
+          "value": {
+            "id": "PKJTVA3D6BE4BFI64WTPAUJSU4",
+            "srcSet": [
+              {
+                "src": "https://www.inquirer.com/resizer/nDAso2dTZknA_bzNnTuJTeYtyaE=/325x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/PKJTVA3D6BE4BFI64WTPAUJSU4.jpg",
+                "size": 325
+              },
+              {
+                "src": "https://www.inquirer.com/resizer/HwcDzI4Yuv2x8w-fGSoKN8quB4o=/650x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/PKJTVA3D6BE4BFI64WTPAUJSU4.jpg",
+                "size": 650
+              },
+              {
+                "src": "https://www.inquirer.com/resizer/mbEgel8_eccQ_dwuWyZFc-DjIDI=/1300x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/PKJTVA3D6BE4BFI64WTPAUJSU4.jpg",
+                "size": 1300
+              },
+              {
+                "src": "https://www.inquirer.com/resizer/oOHQ_nJuF3QvrhKyS9ZSFRlNWEM=/2600x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/PKJTVA3D6BE4BFI64WTPAUJSU4.jpg",
+                "size": 2600
+              }
+            ],
+            "caption": "",
+            "credit": "TOM GRALISH / Staff Photographer"
+          }
         }
       ]
     },
     {
       "type": "text",
-      "value": "PhiladelphiaThe city just missed its threshold for unmasking this week under its new tiered COVID-19 alert system — the test positivity rate was 0.8 percentage points too high."
+      "value": "Philadelphia just missed its threshold for unmasking this week under its new tiered COVID-19 alert system — the test positivity rate was 0.8 percentage points too high."
     },
     {
       "type": "text",
-      "value": "Meanwhile, new federal guidance placed the cityPhiladelphia in a lower COVID-19 risk level, allowing residents who are not immunocompromised to unmask."
+      "value": "Meanwhile, new federal guidance placed the city in a lower COVID-19 risk level, allowing residents who are not immunocompromised to unmask."
     },
     {
       "type": "text",
-      "value": "An Inquirer analysis found that the city’s new formulaalgorithm makes All Clear — the tier that lets residents unmask — hard to achieve. Over the past two years, the city would have hit All Clear for only five weeks."
+      "value": "An Inquirer analysis found that the city’s new formula makes All Clear — the tier that lets residents unmask — hard to achieve. Over the past two years, the city would have hit All Clear for only five weeks."
     },
     {
       "type": "text",
-      "value": "Past data doesn' not predict the future; the city may very well clear the barthreshold to unmask soon. But our analysis also found that when the city hits All Clear, it can be hard to stay there."
+      "value": "Past data doesn't predict the future; the city may very well clear the bar to unmask soon. But our analysis also found that when the city hits All Clear, it can be hard to stay there."
     },
     {
       "type": "text",
@@ -59,7 +85,7 @@
           "text": [
             {
               "type": "text",
-              "value": "Philadelphia’s new system for mask and vaccine mandates is based on COVID-19 cases, test positivity, and hospitalizations."
+              "value": "The city’s system assigns each week to one of four alert levels."
             },
             {
               "type": "text",
@@ -76,7 +102,7 @@
             },
             {
               "type": "text",
-              "value": "Under a third of all weeks over the past two years — the initial March 2020 wave and the two winter spikes after — would have been designated **Extreme Caution**."
+              "value": "One in four weeks over the past two years — the initial March 2020 wave and the two winter spikes after — would have been designated **Extreme Caution**."
             }
           ]
         },
@@ -85,7 +111,7 @@
           "text": [
             {
               "type": "text",
-              "value": "Just under half of all weeks would have been designated **Caution**, the next highest tier. Unvaccinated customers can show proof of a negative test in lieu of vaccination."
+              "value": "Over 40% of all weeks would have been designated **Caution**, the next highest tier. Unvaccinated customers can show proof of a negative test in lieu of vaccination."
             },
             {
               "type": "text",
@@ -102,7 +128,7 @@
             },
             {
               "type": "text",
-              "value": "One in five weeks would have required only masking over the past two years."
+              "value": "One in four weeks would have required only masking over the past two years."
             }
           ]
         },
@@ -124,7 +150,7 @@
           "text": [
             {
               "type": "text",
-              "value": "The city’s formulaalgorithm is designed, intentionally or not, to be very conservative and make it hard to unmask. That's because of how the alert level depends on COVID hospitalizations and three metrics tied to reported COVID cases."
+              "value": "The city’s formula is designed, intentionally or not, to be very conservative and make it hard to unmask. That's because of how the alert level depends on COVID hospitalizations and three metrics tied to reported COVID cases."
             }
           ]
         },
@@ -142,7 +168,7 @@
           "text": [
             {
               "type": "text",
-              "value": "The case average presents a snapshot of COVID prevalence in the community. It doesn’t always align with another metric under consideration, the case rate of change."
+              "value": "The *number* of cases **presents a snapshot of COVID prevalence in the community. It doesn’t always align with another metric under consideration, the* change* in cases."
             }
           ]
         },
@@ -151,11 +177,11 @@
           "text": [
             {
               "type": "text",
-              "value": "The case rate of change tracks whether cases have seen sharp increases in the past week or not."
+              "value": "The change in cases flags sharp increases of case counts."
             },
             {
               "type": "text",
-              "value": "But when cases are low, a relatively small increases among small numbers can still register as a large percentage increases. When both these case measures have hit **All Clear** simultaneously, cases have been low and are decreasing or plateauing."
+              "value": "But when cases are low, a small increase can still register as a large percentage increase. When both these case measures have hit **All Clear** simultaneously, cases have been low and are decreasing or plateauing."
             }
           ]
         },
@@ -182,7 +208,7 @@
           "text": [
             {
               "type": "text",
-              "value": "The case rate of change moved into **Extreme Caution** the week after, and the case average stayed in **All Clear**."
+              "value": "The change in cases moved into **Extreme Caution** a few weeks after, and the number of cases stayed in **All Clear**."
             }
           ]
         },
@@ -202,6 +228,13 @@
       "value": "City officials and outside experts emphasized that circumstances have changed significantly since last year, and the past two years aren’t necessarily predictive of what’s ahead. In June 2021, between 56% and 58% of all Philadelphians were vaccinated, and no young children had received shots. Now, about 78% of city residents are fully vaccinated, and about half of those 5 to 11 have received at least one shot. Huge numbers of people infected during the omicron surge now have the benefit of natural immunity, or bolstered immunity if they were already vaccinated."
     },
     {
+      "type": "subscribe",
+      "value": {
+        "title": "Subscribe to The Philadelphia Inquirer",
+        "description": "Our reporting is directly supported by reader subscriptions. If you want more journalism like this story, please subscribe today"
+      }
+    },
+    {
       "type": "text",
       "value": "So it’s likely the portion of people infected with COVID needing hospitalization will be lower than in 2021, something city health commissioner Cheryl Bettigole noted as a factor in establishing the city benchmarks."
     },
@@ -215,11 +248,15 @@
     },
     {
       "type": "text",
-      "value": "“I was happy to have anything that [hotel and event venue]these operators (hotels and event venues) could look at themselves and see that we were either moving in the right direction or not moving in the right direction,” said Ben Fileccia, director of operations & strategy for the Philadelphia Restaurant and Lodging Association. “We’ve been asking for metrics like this for over a year and a half now.”"
+      "value": "“I was happy to have anything that [hotel and event venue] operators could look at themselves and see that we were either moving in the right direction or not moving in the right direction,” said Ben Fileccia, director of operations & strategy for the Philadelphia Restaurant and Lodging Association. “We’ve been asking for metrics like this for over a year and a half now.”"
     },
     {
       "type": "text",
-      "value": "Losing the vaccine mandate eased pressure on venues losing business to competition in suburban counties without such restrictions. The benefit of the vaccine mandates as an incentive to get people vaccinated, meanwhile, city health department spokesperson James Garrow said, has likely reached the end of its usefulness, city health department spokesperson James Garrow said."
+      "value": "Losing the vaccine mandate eased pressure on venues losing business to competition in suburban counties without such restrictions. The benefit of the vaccine mandates as an incentive to get people vaccinated, meanwhile, has likely reached the end of its usefulness, city health department spokesperson James Garrow said."
+    },
+    {
+      "type": "ad",
+      "value": "phl.news"
     },
     {
       "type": "heading",
@@ -246,6 +283,10 @@
       "value": "Neither of those were Mondays, which is when the city looks at the data to set the COVID-19 alert level for the week."
     },
     {
+      "type": "ad",
+      "value": "phl.news"
+    },
+    {
       "type": "heading",
       "value": "How Philly's COVID-19 tiers compare with federal CDC guidelines"
     },
@@ -255,11 +296,11 @@
     },
     {
       "type": "text",
-      "value": "The new federal system also considers hospitalizations, but the threshold to relax restrictions is easier to hit. It takes more than 320 COVID-19 patients to push Philadelphia toward the CDC category that requires universal masking, more than six times the city's benchmark of 50."
+      "value": "The new federal system also considers hospitalizations, but the threshold to relax restrictions is easier to hit. It takes at least 160 COVID-19 patients to push Philadelphia toward the CDC category that requires universal masking in a high-transmission scenario, and as many as 360 in periods of low transmission."
     },
     {
       "type": "text",
-      "value": "The CDC system differs from the city’s in four other key ways:"
+      "value": "The CDC system differs from the city’s in other key ways:"
     },
     {
       "type": "list",
@@ -270,7 +311,7 @@
         },
         {
           "type": "text",
-          "value": "Two of the CDC's three metricsThe CDC system considers two measures of hospital strain. Three of the city's fourThe city’s system considers three are measures of case spread."
+          "value": "Two of the CDC's three metrics measure hospital strain. Three of the city's four are measures of case spread."
         },
         {
           "type": "text",
@@ -278,7 +319,7 @@
         },
         {
           "type": "text",
-          "value": "The CDC places the onus on individuals to follow guidance, whilewhereas the city expects businesses to enforce the rules."
+          "value": "The CDC places the onus on individuals to follow guidance, while the city expects businesses to enforce the rules."
         }
       ]
     },
@@ -289,6 +330,10 @@
     {
       "type": "text",
       "value": "At present, “people are still struggling to get that home test. So it's a useful figure for us now,” Garrow said. The city is open to changing its benchmarks, and officials have not ruled out adapting the system to align with the new CDC standards."
+    },
+    {
+      "type": "ad",
+      "value": "phl.news"
     },
     {
       "type": "heading",
@@ -308,11 +353,33 @@
     },
     {
       "type": "text",
-      "value": "For people hesitant about vaccination,. “instinctively, the idea of someone putting a substance into your body with a needle seems more scary than wearing a garment that you can take off,” said Robert Field, professor of law at Drexel."
+      "value": "Vaccines are the most effective tool available to combat COVID-19, but by establishing the vaccine mandate as the intervention of last resort, Goldstein said, the city is ranking vaccination as the highest bar to clear in terms of public acceptance."
     },
     {
-      "type": "text",
-      "value": "Vaccines are the most effective tool available to combat COVID-19, but by establishing the vaccine mandate as the intervention of last resort, Goldstein said, the city is ranking vaccination as the highest bar to clear in terms of public acceptance."
+      "type": "image",
+      "value": {
+        "id": "MN67QTQW7ZHFNLPX26KVIVJMWQ",
+        "srcSet": [
+          {
+            "src": "https://www.inquirer.com/resizer/RCSUxAKBPZ9YOu6LFGM7KMXtrhQ=/325x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/MN67QTQW7ZHFNLPX26KVIVJMWQ.jpg",
+            "size": 325
+          },
+          {
+            "src": "https://www.inquirer.com/resizer/ACbzFU_iHi1el2TiUN5jAWvKYjs=/650x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/MN67QTQW7ZHFNLPX26KVIVJMWQ.jpg",
+            "size": 650
+          },
+          {
+            "src": "https://www.inquirer.com/resizer/bdlJk9eb6OF9r2zdQr9mU5KntJs=/1300x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/MN67QTQW7ZHFNLPX26KVIVJMWQ.jpg",
+            "size": 1300
+          },
+          {
+            "src": "https://www.inquirer.com/resizer/wJ-71fqRW1Y6OXdxvOujyRi2at0=/2600x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/MN67QTQW7ZHFNLPX26KVIVJMWQ.jpg",
+            "size": 2600
+          }
+        ],
+        "caption": "Tourists wear masks by the Rocky statue in the gift shop at the Independence Visitor Center.",
+        "credit": "TOM GRALISH / Staff Photographer"
+      }
     },
     {
       "type": "heading",
@@ -324,7 +391,7 @@
     },
     {
       "type": "text",
-      "value": "Setting weekly alerts tied to absolute thresholds, though, comes with dangers. It' is possible that the metrics that determine which mandates are in effect could straddle the line between one level of alert and another for weeks or months, leading to changing mandates from one week to the nextanother."
+      "value": "Setting weekly alerts tied to absolute thresholds, though, comes with dangers. It's possible that the metrics that determine which mandates are in effect could straddle the line between one level of alert and another for weeks or months, leading to changing mandates from one week to the next."
     },
     {
       "type": "text",
@@ -332,7 +399,7 @@
     },
     {
       "type": "text",
-      "value": "The risk, though, is a situation in which the mask mandate, for example, could be active one week, end the next if COVID metrics dipped slightly, and then be reactivated with a slight increase the following week."
+      "value": "The risk, though, is a situation in which the mask mandate, for example, could be active one week, end the next if COVID metrics dip slightly, and then be reactivated with a slight increase the following week."
     },
     {
       "type": "text",
@@ -343,28 +410,36 @@
       "value": "He noted that people’s routines, even their livelihoods, will be affected by the status of safety mandates, and he wasn’t sure how effectively the city could notify residents of a change in restrictions."
     },
     {
+      "type": "ad",
+      "value": "phl.news"
+    },
+    {
       "type": "text",
       "value": "Mask mandates and vaccination requirements also have limited effect on home transmission, city officials acknowledged. That's been a primary driver of cases, the source of 68% of the infections the city can successfully contact trace."
     },
     {
       "type": "text",
-      "value": "Still, Paranjape said,, though, thought there' was value to the city’s safety system."
+      "value": "Still, Paranjape said, there's value to the city’s safety system."
     },
     {
       "type": "text",
-      "value": "“The city is trying to balance keeping the economy going with keeping the city safe,” she said, “in particular, making sure if patients get COVID, theym and others have access to health care.”"
+      "value": "“The city is trying to balance keeping the economy going with keeping the city safe,” she said, “in particular, making sure if patients get COVID, they and others have access to health care.”"
     },
     {
       "type": "text",
-      "value": "Fundamentally, the city and federal systems are designed to ramp up or ease restrictions and or ease them depending on spread and severity of disease, and public health expertprofessionals generally agree with that principle. TheWhere there is disagreement among experts is in the specifics of how to communicatemessage public health restrictions, which metrics to track and how much importance to give them, and how to balance mitigation measures against risk."
+      "value": "Fundamentally, the city and federal systems are designed to ramp up or ease restrictions depending on spread and severity of disease, and public health experts generally agree with that principle. The disagreement is in the specifics of how to communicate restrictions, which metrics to track and how much importance to give them, and how to balance mitigation measures against risk."
     },
     {
       "type": "text",
-      "value": "Those questions don’t have easy answers. But one thing is certain: Wwhether masks come off next week or a few weeks from now, when the city likely hits All Clear, it doesn’t mean they'remasks are gone for good."
+      "value": "Those questions don’t have easy answers. But one thing is certain: Whether masks come off next week or a few weeks from now, when the city likely hits All Clear, it doesn’t mean they're gone for good."
     },
     {
       "type": "endmark",
       "value": "“We should have them handy should we need them again,” Paranjape said. “We haven’t declared the pandemic to be over.”"
+    },
+    {
+      "type": "ad",
+      "value": "phl.news"
     },
     {
       "type": "note",
@@ -387,19 +462,23 @@
         },
         {
           "type": "text",
-          "value": "Test positivity is calculated using molecular test results based on the day of specimen collection. To account for delays in result reportingthe incompleteness of the most recent testing data, the Philadelphia Department of Public Health only considers data through the previous Friday."
+          "value": "Test positivity is calculated using molecular test results based on the day of specimen collection. To account for delays in result reporting, the Philadelphia Department of Public Health only considers data through the previous Friday."
         },
         {
           "type": "text",
-          "value": "Only molecular tests are considered in the positivity calculation. Bbecause home tests may be self-reported to the department on a voluntary basis, introducing. That introduces a sampling bias, so the agency disregards all antigen tests."
+          "value": "Only molecular tests are considered in the positivity calculation. Because home tests may be self-reported to the department on a voluntary basis, introducing a sampling bias, the agency disregards all antigen tests."
         },
         {
           "type": "text",
-          "value": "Case counts use positive test results from both PCR and antigen tests by the date of specimen collection, with a two-day lag to account for incomplete data. Case numbers ares are considered as a seven-day average, and the rate of change is calculated off of those numbers."
+          "value": "Case counts use positive test results from both PCR and antigen tests by the date of specimen collection, with a two-day lag to account for incomplete data. Case numbers are a seven-day average, and the rate of change is calculated off of those numbers."
         },
         {
           "type": "text",
-          "value": "Hospitalization numbers are reported to the state directly by medical providers every day and include all probable and confirmed cases of COVID-19. Only hospitalizations within Philadelphia County boundaries are counted. The state Department of Health counts antigen and PCR positives in its numbers. Only the daily number reported on Mondays is considered in the calculation of the alert tier. Data are unavailable for Dec 20, 2021 statewide due to a “data processing error”."
+          "value": "Any increase in cases that’s greater than 50% counts toward Extreme Caution. Anything below that, including decreases, can count toward any of the other three tiers. The graphics above assign case change to All Clear when it is below 50%."
+        },
+        {
+          "type": "text",
+          "value": "Hospitalization numbers are reported to the state directly by medical providers every day and include all probable and confirmed cases of COVID-19. Only hospitalizations within Philadelphia are counted. The state Department of Health counts antigen and PCR positives in its numbers. Only the daily number reported on Mondays is considered in the calculation of the alert tier. Data are unavailable for Dec 20, 2021."
         }
       ]
     },
@@ -407,32 +486,16 @@
       "type": "credits",
       "value": [
         {
-          "role": "Reporter",
+          "role": "Reporting",
           "names": "Kasturi Pananjady, Jason Laughlin"
         },
         {
-          "role": "Editors",
+          "role": "Editing",
           "names": "Jonathan Lai, Dan Hirschhorn"
         },
         {
-          "role": "Designers and developers",
+          "role": "Design and development",
           "names": "Kasturi Pananjady"
-        },
-        {
-          "role": "Digital editor",
-          "names": "Patricia Madej"
-        },
-        {
-          "role": "Audience engagement editor",
-          "names": "Lauren Aguirre"
-        },
-        {
-          "role": "Photo editor",
-          "names": "TK"
-        },
-        {
-          "role": "Copy editor",
-          "names": "TK"
         }
       ]
     },
