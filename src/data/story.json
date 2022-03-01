@@ -1,6 +1,6 @@
 {
   "_id": "R6EBVOTHBVFOLFX3E2QRI347F4",
-  "last_updated_date": "2022-03-01T21:06:08.505Z",
+  "last_updated_date": "2022-03-01T21:11:33.116Z",
   "credits": {
     "by": [
       {
@@ -141,12 +141,15 @@
     "basic": {
       "_id": "PKJTVA3D6BE4BFI64WTPAUJSU4",
       "additional_properties": {
+        "fullSizeResizeUrl": "/resizer/0gxC4yKgd4WRMdVz1M4CfHeSm_g=/arc-anglerfish-arc2-prod-pmn/public/PKJTVA3D6BE4BFI64WTPAUJSU4.jpg",
         "galleries": [],
         "keywords": [],
         "mime_type": "image/jpeg",
         "originalName": "COVID-F.JPG",
         "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/pmn/PKJTVA3D6BE4BFI64WTPAUJSU4.jpg",
+        "proxyUrl": "/resizer/0gxC4yKgd4WRMdVz1M4CfHeSm_g=/arc-anglerfish-arc2-prod-pmn/public/PKJTVA3D6BE4BFI64WTPAUJSU4.jpg",
         "published": true,
+        "resizeUrl": "/resizer/0gxC4yKgd4WRMdVz1M4CfHeSm_g=/arc-anglerfish-arc2-prod-pmn/public/PKJTVA3D6BE4BFI64WTPAUJSU4.jpg",
         "restricted": false,
         "takenOn": "2021-12-17T00:07:44Z",
         "thumbnailResizeUrl": "/resizer/GT3_peODdbGPkoGBWd0sIM6Ws2A=/300x0/arc-anglerfish-arc2-prod-pmn/public/PKJTVA3D6BE4BFI64WTPAUJSU4.jpg",
@@ -178,7 +181,7 @@
       "geo": {},
       "height": 2000,
       "image_type": "photograph",
-      "last_updated_date": "2022-03-01T21:07:38Z",
+      "last_updated_date": "2022-03-01T21:07:39Z",
       "licensable": false,
       "owner": {
         "id": "pmn",
