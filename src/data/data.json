@@ -292,7 +292,7 @@
     },
     {
       "type": "text",
-      "value": "The city’s benchmarks matched those set by the Centers for Disease Control and Prevention until late February, [when the agency introduced new masking recommendations](https://www.inquirer.com/health/coronavirus/mask-mandate-philadelphia-cdc-pennsylvania-20220225.html)."
+      "value": "The city’s benchmarks generally lined up with those set by the Centers for Disease Control and Prevention until late February, [when the agency introduced new masking recommendations](https://www.inquirer.com/health/coronavirus/mask-mandate-philadelphia-cdc-pennsylvania-20220225.html)."
     },
     {
       "type": "text",
@@ -307,7 +307,7 @@
       "value": [
         {
           "type": "text",
-          "value": "CDC thresholds were chosen based on their ability to predict COVID deaths. The city’s thresholds are designed to keep tabs on surging cases."
+          "value": "The CDC formula was[ designed with a focus on COVID deaths and severe illness](https://www.cdc.gov/coronavirus/2019-ncov/downloads/science/Scientific-Rationale-summary-COVID-19-Community-Levels.pdf). The city's emphasizes surging cases."
         },
         {
           "type": "text",

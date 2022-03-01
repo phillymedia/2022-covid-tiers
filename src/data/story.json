@@ -1,6 +1,6 @@
 {
   "_id": "R6EBVOTHBVFOLFX3E2QRI347F4",
-  "last_updated_date": "2022-03-01T21:11:33.116Z",
+  "last_updated_date": "2022-03-01T21:31:27.232Z",
   "credits": {
     "by": [
       {
@@ -162,7 +162,7 @@
         "locality": "Philadelphia",
         "region": "PA"
       },
-      "caption": "Guests wear masks as they check in to a show at the Academy of Music.",
+      "caption": "Guests wear masks as they check in for a show at the Academy of Music.",
       "copyright": "© Copyright 2021 The Philadelphia Inquirer",
       "created_date": "2021-12-17T16:29:15Z",
       "credits": {
@@ -227,14 +227,14 @@
   },
   "headlines": {
     "basic": "Philly’s mask mandate will likely end soon. But the new COVID alert system means it could come back fast.",
-    "meta_title": "Philadelphia's new COVID-19 alert tiers make it hard to lift mask mandate",
+    "meta_title": "Philadelphia COVID-19 alert tiers make it hard to lift mask mandate",
     "mobile": "",
     "native": "",
-    "print": "We applied Philly’s new COVID alert levels to the whole pandemic. Here’s what we learned.",
-    "tablet": "",
-    "web": ""
+    "print": "Philly's new COVID system makes it hard to unmask. We crunched the numbers.",
+    "tablet": "Philly's new COVID system makes it hard to unmask. We crunched the numbers.",
+    "web": "Philly’s mask mandate will likely end soon. But the new COVID alert system means it could come back fast."
   },
   "subheadlines": {
-    "basic": "The mask mandate may end soon, but the new system means it could come back fast."
+    "basic": "The city’s new formula makes “All Clear” status hard to achieve. Over the past two years, Philly would have hit it for only five weeks."
   }
 }
